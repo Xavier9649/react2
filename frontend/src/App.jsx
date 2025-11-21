@@ -18,7 +18,7 @@ function App() {
     e.preventDefault();
     try {
       // Hacemos la petición al Backend en RENDER
-      const response = await fetch('https://react2-ihu0.onrender.com/api/guardar', {
+      const response = await fetch('https://react2-5m0b.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
